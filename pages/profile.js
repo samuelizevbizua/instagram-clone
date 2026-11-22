@@ -56,7 +56,7 @@ const profile = () => {
         <div className={profileStyles.summary}>
           <div className={profileStyles["profile-picture"]}>
             <Image
-              src="/no-profile.png"
+              src="/instagram-clone/instagram-clone/no-profile.png"
               width={100}
               height={100}
               alt="profile-picture"

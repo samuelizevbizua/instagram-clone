@@ -99,7 +99,7 @@ export default function Home() {
           <div className={styles.suggestions}>
             <div className={styles.details}>
               <Image
-                src="/no-profile.png"
+                src="/instagram-clone/instagram-clone/no-profile.png"
                 width={54}
                 height={54}
                 alt="profile"
@@ -119,7 +119,7 @@ export default function Home() {
             {suggestionsData.map((det, index) => (
               <div className={styles["sug-details"]} key={index}>
                 <Image
-                  src={det.image ? det.image : "/no-profile.png"}
+                  src={det.image ? det.image : "/instagram-clone/instagram-clone/no-profile.png"}
                   width={40}
                   height={40}
                   alt="profile"
