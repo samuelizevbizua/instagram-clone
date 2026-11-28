@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
-  basePath: '/instagram-clone',
+  basePath: '/social-feed-ui-demo',
   images: { unoptimized: true },
 }
 

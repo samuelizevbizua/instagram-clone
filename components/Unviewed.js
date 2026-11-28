@@ -8,7 +8,7 @@ function Unviewed({ imageSource, compWidth }) {
       style={{ width: compWidth, height: compWidth }}
     >
       <Image
-        src={imageSource ? imageSource : "/instagram-clone/instagram-clone/no-profile.png"}
+        src={imageSource ? imageSource : "/social-feed-ui-demo/no-profile.png"}
         width={500}
         height={500}
         alt="profile"
